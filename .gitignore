@@ -1,0 +1,11 @@
+# secrets — never commit
+*.key
+*.pem
+*_token
+*.secret
+.env
+
+# editor/plugin state (add when you stow nvim)
+.local/share/nvim/
+.local/state/nvim/
+.cache/
